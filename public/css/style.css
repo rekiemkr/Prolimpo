@@ -71,7 +71,7 @@
     text-align: justify;
 }
 .sub-header{
-    border-bottom: 1px solid;
+    border-bottom: 2px solid #2E2E2E;
 }
 .sub-header h1{
     line-height: 100px;
