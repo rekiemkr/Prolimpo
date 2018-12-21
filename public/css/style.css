@@ -44,6 +44,7 @@
 .lista a{
     text-decoration: none;
     color: black;
+    
 }
 .lista a:hover{
     font-size: 15px;
@@ -118,9 +119,6 @@
 .content-img img{
     width: 24%;
     border-radius: 10px;
-}
-.sub-header2{
-    border-bottom: 1px solid white;
 }
 .sub-header2 h1{
     text-shadow: 0px 0px 8px black;
@@ -199,9 +197,9 @@
         height: 1580px;
     }
 }
-@media (max-width:680px){
+@media (max-width:690px){
     .service{
-        height: 1610px;
+        height: 1630px;
     }
 }
 @media (max-width:650px){
@@ -389,5 +387,12 @@
 
     .service{
         height: 2060px;
+    }
+}
+
+@media (max-width: 300px){
+
+    .service{
+        height: 2100px;
     }
 }
