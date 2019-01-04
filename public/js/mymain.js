@@ -1,8 +1,8 @@
 if('serviceWorker' in navigator){
-    alert('puedes usar los service no se que');
+    console.log('puedes usar los service no se que');
     navigator.serviceWorker.register('./serviceWorker.js')
                            .then(resul => console.log('service worker cargado', resul))
-                           .catch(err => console.log('no se pudieron cargar los servicios', err))
+                           .catch(err => console.log('no se pudieron cargar los servicios', err));
 }else{
     alert('no puedes usar los service no se que');
 }
