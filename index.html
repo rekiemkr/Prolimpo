@@ -2,14 +2,11 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/animated.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway|Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
     <link rel="apple-touch-icon" sizes="57x57" href="public/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="public/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="public/img/apple-icon-72x72.png">
@@ -19,13 +16,32 @@
     <link rel="apple-touch-icon" sizes="144x144" href="public/img/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="public/img/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="public/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="public/img/android-icon-192x192.png">
+    <link rel="apple-touch-startup-image" href="public/img/apple-icon-180x180.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="public/img/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="public/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="public/img/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon-16x16.png">
+
+
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#4c94d4">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/animated.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <title>Prolimpo</title>
 </head>
 
@@ -37,7 +53,7 @@
                     <img src="public/img/Selection_010.png" alt="Logo prolimpo">
                 </a>
             </div>
-            <div class="lista">
+            <div id="lista" class="lista">
                 <ul>
                     <li id="li0">
                         <a href="#main-title">
@@ -64,14 +80,14 @@
         </div>
     </div>
     <div class="clearfix animated slow rubberBand">
-        <div class="main-title" name="main-title">
+        <div id="main-title" class="main-title" name="main-title">
             <h1>
                 Empresa de servicios generales
             </h1>
         </div>
     </div>
     <div class="container animated slow shake">
-        <div class="service" name="service">
+        <div id="service" class="service" name="service">
             <div class="sub-header">
                 <h1>SERVICIOS</h1>
             </div>
@@ -85,13 +101,13 @@
             <div class="item">
                 <img src="public/img/service-2.png" alt="" srcset="">
                 <h2>Soldadura</h2>
-                <p>Ofrecemos servicios de soldadura y recuperación de piezas a través de los procesos de Soldadura 
+                <p>Ofrecemos servicios de soldadura y recuperación de piezas a través de los procesos de Soldadura
                     TIG, Eléctrica, Autógena y corte con plasma.</p>
             </div>
             <div class="item">
                 <img src="public/img/service-3.png" alt="" srcset="">
                 <h2>Plomeria</h2>
-                <p>Destapamos sin romper, con sondas eléctricas y sondas tipo acueducto, toda clase de cañería, 
+                <p>Destapamos sin romper, con sondas eléctricas y sondas tipo acueducto, toda clase de cañería,
                     ya sea domiciliaria, comercial, de entidades púbicas y privadas.</p>
             </div>
             <div class="item">
@@ -111,13 +127,13 @@
             <div class="item">
                 <img src="public/img/service-6.png" alt="" srcset="">
                 <h2>Mantenimiento de piscina</h2>
-                <p>Servicio de aseo con un equipo humano altamente calificado, 
+                <p>Servicio de aseo con un equipo humano altamente calificado,
                     que mantendrá impecable su piscina.</p>
             </div>
         </div>
     </div>
     <div class="clearfix animated slow flip">
-        <div class="imgs" name="imgs">
+        <div id="imgs" class="imgs" name="imgs">
             <div class="container">
                 <div class="sub-header2">
                     <h1>GALERIA</h1>
@@ -132,7 +148,7 @@
         </div>
     </div>
     <div class="footer animated slow pulse" name="information">
-        <div class="information">
+        <div id="information" class="information" name="information">
             <img src="public/img/prolimpo.png" alt="logo" srcset="">
         </div>
         <div id="inf" class="information">
@@ -152,13 +168,14 @@
             <p>Ubicación: </p>
             <p>Crra 1 F Este #17a09 Madrid, Cundinamarca</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15904.900576998782!2d-74.25540038360596!3d4.7309125575735544!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1544930253796"
-                width="220" height="220" frameborder="0" style="border:0; text-align: center;"  allowfullscreen></iframe>
+                width="220" height="220" frameborder="0" style="border:0; text-align: center;" allowfullscreen></iframe>
         </div>
     </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="public/js/myjs.js"></script>
+    <script type="text/javascript" src="public/js/mymain.js"></script>
 </body>
 
 </html>
