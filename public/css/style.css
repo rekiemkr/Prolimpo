@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -14,13 +14,17 @@
     float: none;
 }
 .logo{
+    margin-top: 20px;
     float: left;
     width: 65%;
 }
 .header{
     height: 100px;
     line-height: 90px;
-    
+}
+h2{
+    font-weight: 1rem;
+    font-weight: 600;
 }
 .main-title{
     height: 220px;
@@ -37,6 +41,7 @@
     float: left;
     list-style: none;
     font-size: 14px;
+    font-weight: 500;
 }
 #li3{
     margin-left: 5px
@@ -57,7 +62,7 @@
     color: gray;
 }
 .item{
-    margin-top: 30px;
+    margin-top: 60px;
     text-align: center;
     width: 33%;
     float: left;
@@ -70,6 +75,8 @@
 .item p{
     padding: 35px;
     text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 .sub-header{
     border-bottom: 2px solid #2E2E2E;
